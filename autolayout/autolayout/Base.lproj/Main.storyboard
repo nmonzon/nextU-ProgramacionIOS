@@ -39,13 +39,29 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="habia una vez truz en un coche azul que tenia mucho tiempo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGe-Zp-aJV">
+                                <rect key="frame" x="8" y="78" width="359" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kce-Ga-nRc">
+                                <rect key="frame" x="164.5" y="127" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="kce-Ga-nRc" firstAttribute="top" secondItem="GGe-Zp-aJV" secondAttribute="bottom" constant="8" id="5gL-dT-xS9"/>
                             <constraint firstItem="s1p-vp-Jdx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="78Y-2c-1EL"/>
+                            <constraint firstItem="GGe-Zp-aJV" firstAttribute="top" secondItem="s1p-vp-Jdx" secondAttribute="bottom" constant="8" id="Afi-uO-euF"/>
                             <constraint firstItem="psX-kA-ECP" firstAttribute="leading" secondItem="s1p-vp-Jdx" secondAttribute="trailing" constant="11" id="Ajt-nu-bae"/>
                             <constraint firstItem="s1p-vp-Jdx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="G6y-Xc-sdg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GGe-Zp-aJV" secondAttribute="trailing" constant="8" id="QFL-MM-xHb"/>
+                            <constraint firstItem="GGe-Zp-aJV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Rcr-eg-bKd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="psX-kA-ECP" secondAttribute="trailing" constant="20" id="Yw7-v6-vBe"/>
+                            <constraint firstItem="kce-Ga-nRc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hLb-0e-D9p"/>
+                            <constraint firstItem="GGe-Zp-aJV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hy7-p6-jjW"/>
                             <constraint firstItem="psX-kA-ECP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="xvG-LM-NYS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
